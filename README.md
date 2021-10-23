@@ -4,7 +4,7 @@ This projects presents a website with a products portfolio. It is a responsive w
 
 ## Preview of the project
 
-<p align="center"><img width="100%" src="/assets/img/suricata.png"></p>
+<p align="center"><img width="100%" src="assets/img/suricata.png"></p>
 
 ## Webpage
 
