@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+  <html lang="es">
+
+    <head>
+      <title>Suricata</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Denisse Orellana">
+      <meta name="description" content="Conoce nuestros productos">
+      <meta name="keywords" content="Colaciones, desayunos, bebidas, verduras, dulces, empanadas">
+      <!--#CSS Bootstrap 4.4.1-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!-- #CSS Style -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- #Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+      <!-- #Font Awesome -->
+      <script src="https://kit.fontawesome.com/04a5b6ed04.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+      <nav class="navbar navbar-expand-lg navbar-dark bg-nav background text-white"> <!--Class="bg-nav" | Reemplaza a "bg-light" que venia por defecto para usarla como clase en CSS-->
+        <div class="container"> 
+                          
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt="Logo Suricata"></a>
+            <!--Donde esta el nombre NarBar se coloca el logo-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <!-- #(m:margen | l:left | auto:automatic | m-5): genera margen que se ajusta automaticamente-->
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>              
+      
+      <!--#Bootstrap Spacing 
+          #Margin Property: 1) m for classes that set margin; 2) p for classes that set padding
+          #Margin Side: 1) x for classes that set both left and right; 2) y for classes that set both top and bottom;
+                t - for classes that set margin-top or padding-top                  
+                b - for classes that set margin-bottom or padding-bottom
+                l - for classes that set margin-left or padding-left
+                r - for classes that set margin-right or padding-right
+                x - for classes that set both *-left and *-right
+                y - for classes that set both *-top and *-bottom
+                blank - for classes that set a margin or padding on all 4 sides of the element
+          #Margin Size: 0-1-2-3-4-5-auto | You can add more sizes by adding entries to the $spacers Sass map variable-->
+
+      <!--#Color Bootstrap 
+          <p><a href="#" class= "text-primary" >Primary link</a></p>
+          <p><a href="#" class= "text-secondary" >Secondary link</a></p>
+          <p><a href="#" class= "text-success" >Success link</a></p>
+          <p><a href="#" class= "text-danger" >Danger link</a></p>
+          <p><a href="#" class= "text-warning" >Warning link</a></p>
+          <p><a href="#" class= "text-info"> Info link</a></p>
+          <p><a href="#" class= "text-light bg-dark" >Light link</a></p>
+          <p><a href="#" class= "text-dark"> Dark link</a></p>
+          <p><a href="#" class= "text-muted"> Muted link</a></p>
+          <p><a href="#" class= "text-white bg-dark"> White link</a></p>-->
+            
+    <section class="card-section p-5">
+
+      <h1 class="text-center mb-5 mt-4 responsive-text">Nuestros productos</h1><!--my-5: coloca margen arriba y abajo de 5-->
+
+      <div class="card-deck mt-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/colaciones.jpg" alt="colaciones">
+          <div class="card-body">
+            <h5 class="card-title">Colaciones</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="assets/img/desayunos.jpg" alt="desayunos">
+          <div class="card-body">
+            <h5 class="card-title">Desayunos</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <img class="card-img-top" src="assets/img/bebidas.jpg" alt="bebidas">
+          <div class="card-body">
+            <h5 class="card-title">Bebidas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card mt-5">
+          <img class="card-img-top" src="assets/img/verduras.jpg" alt="verduras">
+          <div class="card-body">
+            <h5 class="card-title">Verduras</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5">
+          <img class="card-img-top" src="assets/img/dulces.jpg" alt="dulces">
+          <div class="card-body">
+            <h5 class="card-title">Dulces</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5">
+          <img class="card-img-top" src="assets/img/empanadas.jpg" alt="empanadas">
+          <div class="card-body">
+            <h5 class="card-title">Empanadas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!--Vertical alignment Bootstrap
+          class="align-baseline"
+          class="align-top"
+          class="align-middle"
+          class="align-bottom"
+          class="align-text-top">
+          class="align-text-bottom"> --->
+      
+      <section class="icons-section py-5 text-center align-middle text-white d-none d-sm-block d-sm-none d-md-block">
+        <div class="container">
+          <h3 class="mr-5">Ahora aceptamos</h3> 
+            <i class="fab fa-cc-visa fa-4x"></i>
+            <i class="fab fa-cc-mastercard fa-4x"></i>
+            <i class="fab fa-cc-amex fa-4x"></i>
+            <i class="fab fa-cc-diners-club fa-4x"></i>
+            <i class="fab fa-cc-paypal fa-4x"></i>
+            <i class="fab fa-cc-discover fa-4x"></i>
+        </div>    
+      </section>
+
+      <!--d-none d-sm-block d-sm-none d-md-block": display none in small devices-->
+
+      <footer class="p-5 text-center background text-white">
+        <img src="assets/img/logo-footer.png" alt="Logo Footer">
+      </footer>
+
+      <!--#JQuery 3.4.1-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <!--#Popper 1.16.0-->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+      <!-- #Bootstrap JS 4.4.1 -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    </body>
+
+  </html>
+

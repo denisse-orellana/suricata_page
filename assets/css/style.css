@@ -1,0 +1,132 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background {
+    background-color: var(--pink);
+}
+
+.navbar-brand img {
+    width: 132px;
+    height: 53px;
+}
+
+.navbar-nav {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+/*.navbar-brand img => Busca dentro de la clase navbar-brand la etiqueta
+    navbar-brand,img => Selecciona ambos!*/
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #707070;
+}
+
+h5 {
+    color: #373A3C;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+p {
+    color: #373A3C;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.list-group {
+    color: #373A3C;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.card-deck {
+    padding: 0 85px 85px 85px;
+}
+
+.card-body {
+    color: #1C7CD5;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.icons-section {
+    background-color: var(--info);
+    height: 170px;
+}
+
+.icons-section h3 {
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+i {
+    width: 8.5%;
+    vertical-align: center;
+}
+
+footer {
+    height: 184px;
+}
+
+footer img {
+    height: 100px;
+}
+
+/*Recomienda dejar Media Query abajo y los estilos arriba, para mantener un orden*/
+
+/*XS*/
+@media (min-width: 0px) {
+    .responsive-text {
+        font-size: 35px;
+    }
+    .card-deck {
+        padding: 0;
+    }
+}
+
+/*SM*/
+@media (min-width: 576px) {
+    .responsive-text {
+        font-size: 35px;
+    }
+    .card-deck {
+        padding: 0;
+    }
+}
+
+/*MD*/
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 35px;
+    }
+    .card-deck {
+        padding: 0;
+    }
+}
+
+/*LG*/
+@media (min-width: 992px) {
+    .responsive-text {
+        font-size: 60px;        
+    }
+    .card-deck {
+        padding: 0 85px 85px 85px;
+    }
+}
+
+/*XL*/
+@media (min-width: 1200px) {
+    .responsive-text {
+        font-size: 60px;        
+    }
+    .card-deck {
+        padding: 0 85px 85px 85px;
+    }
+}
